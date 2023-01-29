@@ -6,6 +6,7 @@ import { Home } from "./routes/home";
 import { Root } from "./routes/root";
 import { SignAndSubmitTx } from "./routes/sign-and-submit-tx";
 import { SwitchAccount } from "./routes/switch-account";
+import { GetPosts } from "./routes/get-posts";
 import { User } from "./routes/user";
 
 const router = createBrowserRouter([
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
         path: "/switch-account",
         element: <SwitchAccount />,
       },
+      {
+        path: "/get-posts",
+        element: <GetPosts />,
+      }
     ],
   },
 ]);
