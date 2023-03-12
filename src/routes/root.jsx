@@ -10,6 +10,7 @@ import { Nav } from "../components/nav";
 import { UserContext } from "../contexts";
 
 configure({
+  nodeURI: "https://test.deso.org",
   spendingLimitOptions: {
     GlobalDESOLimit: 10000000, // 0.01 DESO
     TransactionCountLimitMap: {
